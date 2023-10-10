@@ -1,0 +1,40 @@
+/* Style the form container */
+.custom-form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Style form input fields */
+.custom-form input[type="text"],
+.custom-form input[type="email"],
+.custom-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style the submit button */
+/* Style the submit button */
+.custom-form .submit-button {
+    background-color: #f1f1f1; /* New background color */
+    color: #000000; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+.custom-form .submit-button:hover {
+    background-color: #ecb233; /* Background color on hover */
+    /* You can keep the text color as white on hover, or customize it as needed */
+    color: #fff; /* Text color on hover */
+}
+/* Style the star outlines */
+
+.custom-form .star{
+    color: #ecb233;
+    font-size: 25px;
+    /* border: 2px solid orange;*/
+}
